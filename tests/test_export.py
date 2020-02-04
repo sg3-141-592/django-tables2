@@ -384,3 +384,4 @@ class UnicodeExportViewTest(TestCase):
         exporter = TableExport("xls", Table([]))
         # this would fail if the header contains unicode and string converstion is attempted.
         exporter.export()
+
